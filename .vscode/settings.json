@@ -1,0 +1,5 @@
+{
+    "editor.fontSize": 14,
+    "html.format.indentHandlebars": true,
+    "workbench.editor.tabSizing": "shrink"
+}

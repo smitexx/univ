@@ -1,0 +1,66 @@
+/* URLS_CAMISETAS*/
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+body{
+background: #5f2c82;
+	background: -webkit-linear-gradient(to right, #49a09d, #5f2c82); 
+    background: linear-gradient(to right, #49a09d, #5f2c82); 
+}
+div.hero img{
+    width: 50%;
+}
+div.hero {
+    text-align: center;
+    padding: 20px;
+    
+}
+ul.lista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+ul.lista li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 100px; 
+}
+@media only screen and (max-width: 768px){
+ul.lista li {
+    float: left;
+    width: 100%;
+}
+
+}
+ul.lista  li:nth-child(2n+1){
+    clear: both;
+}
+ul.lista li img {
+    border: 10px solid rgb(80, 4, 80);
+    
+}
+ul.lista li img:hover{
+    border: 10px solid #e6344a;
+ }
+ul.lista li p{
+     font-weight: bold;
+     color: white;
+     font-size: 30px;
+     margin-top: 10px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ul.lista li p span{
+     font-size: 40px;
+ }
+h2.h2_url {
+padding: 20px;
+}
+
+/*AÑADIR CARRO*/
+.añadir_carro{
+  font-weight: bold;
+}
